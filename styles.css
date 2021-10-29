@@ -1,0 +1,141 @@
+body {
+    display: flex;
+    flex-flow: column;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section1 {
+    background-color: #1f2937;
+    padding: 0 20px;
+    padding-bottom: 20px;
+    color: white;
+    display: flex;
+    flex-flow: column;
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header a img {
+    width: 100px;
+    height: 20px;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+.section1 .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text-container {
+    width: 300px;
+}
+
+.section1 .container img {
+    height: 100px;
+    width: 200px;
+}
+
+.section2 {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 .container {
+    display: flex;
+    width: 75%;
+    justify-content: center;
+}
+
+.information {
+    margin: auto 52px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 200px;
+}
+
+.information img {
+    height: 100px;
+    width: 100px;
+}
+
+.section3 {
+    background-color: #e5e7eb;
+    padding: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.section3 .container {
+    width: 60%;
+    display: flex;
+    flex-flow: column;
+}
+
+.attribution {
+    display: flex;
+    justify-content: right;
+}
+
+.quote .text {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.attribution .text {
+    font-weight: bold;
+}
+
+.section4 {
+    background-color: #ffffff;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section4 .container {
+    background-color: #3882f6;
+    width: 60%;
+    padding: 15px;
+    border-radius: 25px;;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section4 .container button {
+    background-color: #3882f6;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    color: white;
+}
